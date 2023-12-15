@@ -30,7 +30,7 @@ const Home = () => {
         <div className="mb-14">
           <Image
             src={"/banner2.avif"}
-            alt="banner1"
+            alt="banner2"
             width={200}
             height={200}
             className=" h-40 w-full"

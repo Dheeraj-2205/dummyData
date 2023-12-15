@@ -22,13 +22,14 @@ const Header3 = () => {
             }}
           />
 
-
-          <button
-            type="submit"
-            className=" h-16 px-3 py-2 w-72 bg-green-400 hover:cursor-pointer hover:bg-green-600 text-white text-xl"
-          >
-            <Link href={`/hotels?city=${city}`}>Search</Link>
-          </button>
+          <Link href={`/hotels?city=${city}`}>
+            <button
+              type="submit"
+              className=" h-16 px-3 py-2 w-72 bg-green-400 hover:cursor-pointer hover:bg-green-600 text-white text-xl"
+            >
+              Search
+            </button>
+          </Link>
         </div>
         <div className="flex mx-20 my-5 font-bold">
           <button
